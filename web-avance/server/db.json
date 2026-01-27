@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Zinedine",
+      "password": "123",
+      "householdSize": 4,
+      "level": 1,
+      "xp": 20,
+      "nextLevelXp": 100,
+      "avatar": "default.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 101,
+      "userId": 1,
+      "nom": "A FAIRE",
+      "tasks": [
+        {
+          "id": "922276bb-0c4e-47af-b7c3-23bfee87fe82",
+          "title": "preparer",
+          "description": "ok",
+          "isDone": true
+        },
+        {
+          "id": "fc421993-5582-461a-a33c-27034843d9b2",
+          "title": "aa",
+          "description": "",
+          "isDone": false
+        }
+      ]
+    },
+    {
+      "id": "c818e0d2-fb9e-4d71-898a-8b8da5ee43e1",
+      "userId": 1,
+      "nom": "URGENT",
+      "tasks": [
+        {
+          "id": "c7a51a85-8c80-4f2a-96c3-d64a71bf85db",
+          "title": "oops",
+          "description": "",
+          "isDone": true
+        }
+      ]
+    }
+  ],
+  "charges": []
+}

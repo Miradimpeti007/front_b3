@@ -1,6 +1,6 @@
 <template >
     <div>
-       <h2>{{ props.title }}</h2> 
+       <h2>{{ $route.meta.title}}</h2> 
     </div>
 </template>
 

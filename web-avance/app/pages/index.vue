@@ -3,3 +3,6 @@
         <h1>Bienvenue sur la page d'accueil</h1>
     </div>
 </template>
+<script setup lang="ts">
+    definePageMeta({ title: 'ACCUEIL' })
+</script>
