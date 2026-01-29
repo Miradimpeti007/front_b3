@@ -1,49 +1,617 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "Zinedine",
-      "password": "123",
-      "householdSize": 4,
+      "id": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
+      "username": "popo",
+      "password": "$2b$10$WJPdRAc5q7C.0Xct5Pul6Og58PpeXuDvOsMXe/uR30ZHLWCnF7Xjm",
+      "firstName": "jean",
+      "lastName": "dupont",
+      "householdSize": 3,
+      "avatar": "/avatars/pere.jpg",
+      "level": 2,
+      "xp": 200,
+      "nextLevelXp": 240,
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1MTk1NTUsImV4cCI6MTc3MDEyNDM1NX0.YwOo8qTcRLTuP1MK6ebvP5wOeucgJ1bptcwUN3f3H74",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1MTk1OTksImV4cCI6MTc3MDEyNDM5OX0.5ff77AHwYcGFfxw8qutYcwc1pUec1M90c0dQ8QrbPhk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1MTk2OTMsImV4cCI6MTc3MDEyNDQ5M30.KZjnYkIyG3h5jGrcNQvsJb8NkW-JkSDkrRR3fN5W7KE",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1MjA5MTksImV4cCI6MTc3MDEyNTcxOX0.oYiMLvPZsao8u5mxQPRfyvnURuLq_8ztR1DYZP2kLKA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1MjIyODAsImV4cCI6MTc3MDEyNzA4MH0.jNLXH5XSDPrB8k-syW61Xj5fOgJRkeU6STo9LJA8xhE",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1NDQ2MDMsImV4cCI6MTc3MDE0OTQwM30.VsQEvcs9pIjVMATS6mV-gbhcwmruFod_zqP4G8O0Cms",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk1OTA3NTcsImV4cCI6MTc3MDE5NTU1N30.akW86Lg3YCccgeUIXz24Fkdfjz4VkLkCumlYd6c91sA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk2MDE1OTIsImV4cCI6MTc3MDIwNjM5Mn0.guaw262ods7wl69buXupMB3qBdSgTRUgnxs11qehCKY",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzYTI1MTliOC03ODk1LTRmN2QtODBhOC0zYjk3ODRhZDRhYjgiLCJpYXQiOjE3Njk2MDkyODQsImV4cCI6MTc3MDIxNDA4NH0.0BFBsk6y7eF5UPX7BaOJV-QxHPWJv-tDvXErTiGk0_g"
+      ]
+    },
+    {
+      "id": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "username": "coco",
+      "password": "$2b$10$dYysyn1p/gANs8050pe.UOs2sFGBOSt7Rpzee8RkajGFDmB2KLKa.",
+      "firstName": "coc",
+      "lastName": "coc",
+      "householdSize": 1,
+      "avatar": "/avatars/enfant-f.jpg",
+      "level": 9,
+      "xp": 288,
+      "nextLevelXp": 1080,
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk3MDUsImV4cCI6MTc3MDEyNDUwNX0.-bcKornEeNmABep8qPnITXT-lHop9nevL08mEgrW5Nc",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjAzMzcsImV4cCI6MTc3MDEyNTEzN30.OBruvc05PP9zuPWLyWkZkWFOL2L1L3ptE5EWn9MWq_I",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjAzNTAsImV4cCI6MTc3MDEyNTE1MH0.MbYbsA4pAp3DNpW8v_NJvOBNlE3rI8C5QgWZzcnMTLA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjA0MTUsImV4cCI6MTc3MDEyNTIxNX0.AgX6yiA9k2SU6Bw7lEJEVb4TKoyXVH6EoimFyuM8a0w",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjA1MjYsImV4cCI6MTc3MDEyNTMyNn0.0xnOEccpmneY-Ah6VPvjQ7evVywgemuNlOyg7yq4Kss",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjA1MzYsImV4cCI6MTc3MDEyNTMzNn0.CJpm-rKIqAeCoF7FqE0Cd40KITBHuvRlr-yIWYTfDaA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MjEyMDEsImV4cCI6MTc3MDEyNjAwMX0.WQfc5r1tYm4Iguo0rxZB8Ke75EJqUwAgPfgaFoZ_Khk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDI2MzYsImV4cCI6MTc3MDE0NzQzNn0.EGEoalztV1PzeloiIjEXiK6wNGd_dYOAeGzrBzl-nIE",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDQ4NDcsImV4cCI6MTc3MDE0OTY0N30.80qJ820KPWv2IQr6DDGrnXkIiwkp7tClFs0DVRocbsY",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDQ5NjYsImV4cCI6MTc3MDE0OTc2Nn0.ASJ-PjZeEs3UvW2yZFFCDPPgOuFOVWOlPCwnSNktkLU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDUxMjAsImV4cCI6MTc3MDE0OTkyMH0.Nh0WKNae9YCnBVTVbKBbHAe-ttebn_AO9C2EHdmoqmg",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY3MzIsImV4cCI6MTc3MDE1MTUzMn0.7_GOe-eckr9hpHCQibCA_cQNEvSk38QBSTmT9W5DF0I",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY3MzksImV4cCI6MTc3MDE1MTUzOX0.l7radMYk5YQddk02a2vFYv1364ketTvyLGtqT_vADCo",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY3NTIsImV4cCI6MTc3MDE1MTU1Mn0.-ErjHj3UfUlMfpFVWQwKKnNudjqv-tEt2V0D7iKwmR4",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY3NTMsImV4cCI6MTc3MDE1MTU1M30.braMuQnphknRKjRVeZdNhsPzNAGfV6SlmZ_JXzd0IuQ",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY3NTQsImV4cCI6MTc3MDE1MTU1NH0.6huxvj2QSvrf53QlUNBjbqh4wMhbwleMJDiPbr4OkEM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1NDY5MDMsImV4cCI6MTc3MDE1MTcwM30.BNezkxJOwpDtPs7CPN6TP3VC4w1dOQmxzcofZGkG-hk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTI5MjcsImV4cCI6MTc3MDE5NzcyN30.3R61657G4sXURQZbFNHHnV6dKNqj_rgMnPPivyE3cjM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTMyNjIsImV4cCI6MTc3MDE5ODA2Mn0.x7b2cjJ_nTT42gvGvET6ro7KXotDJ8Jq09ObUFyxpk8",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTQ5MTEsImV4cCI6MTc3MDE5OTcxMX0.Ae0-kglOvAWF8UaCNpPKHbLOwn-h9n3YtQSzMjdv0WU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTY0NDIsImV4cCI6MTc3MDIwMTI0Mn0.896ZoRdGY8HqBhbvT3b5_0cB_v82uOOupbIYNoun5Ts",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTY3MTgsImV4cCI6MTc3MDIwMTUxOH0.etZHNKWhAUu1i58E4cYuY9oo-Zs5aZ0o2Xb4VBH8mPk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTc3MjIsImV4cCI6MTc3MDIwMjUyMn0.Y0ts9ZBl3O8IOFH4RSswuJH35TPtdnCsTmiPu6LrKUM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTgyOTUsImV4cCI6MTc3MDIwMzA5NX0.hz1yW52wBLc9jWtv1xEawe7X0wK_-21BLYHr9BerIj8",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1OTk4OTAsImV4cCI6MTc3MDIwNDY5MH0.RF0hWKYcbc85nF9iJUaFToNfna4oDTJbGOPA9G9m9tM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDAyOTYsImV4cCI6MTc3MDIwNTA5Nn0.Kj5dlmv2BFYjSyp8OZokTn4wrjz7y3Vz6ZVa45SFLlw",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDExMTksImV4cCI6MTc3MDIwNTkxOX0.mtumY93f9nSSYhrQBZ0YAnBMrw_jmoj2-fZyjxzvHVk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDExMjYsImV4cCI6MTc3MDIwNTkyNn0.Or8FXR9QiJw0p4w9aD0v5-sI9xzE5p8rPCRb57EJvFY",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDE1MDAsImV4cCI6MTc3MDIwNjMwMH0.aHvL1Jb9m3-6ZCLq7wLzJG2bzxVsnAukodtxBWXzjnc",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDE1NTUsImV4cCI6MTc3MDIwNjM1NX0.0fM33Gh5SrM_eGsf1E1OQ_o6Z8Py7vValW6Yd7gBaHs",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDM0NDQsImV4cCI6MTc3MDIwODI0NH0.0m9-9j4D3RTPJGKTGr4xg669nqt51yNC8qbw2ZA4fsM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDQ3MDIsImV4cCI6MTc3MDIwOTUwMn0.6s07ebum3OpmaLcDNi6rT59GQfV4OgGo6eRWysWsoKw",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDcwNDMsImV4cCI6MTc3MDIxMTg0M30.4A43nrOdM9v0gGBggZ43ZLRe4B3ATrvKD9aAr_Qe4HE",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MDgwMTgsImV4cCI6MTc3MDIxMjgxOH0.NP6gIgLplYLNx2-UoSztDhzjXTAZurqZlQoiW6KZeXA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2MzM2ODUsImV4cCI6MTc3MDIzODQ4NX0.Kx7fnb30zJqcURmhDxz3wS69j7lpRFilI8bQuyp093g",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2NzQ0NDAsImV4cCI6MTc3MDI3OTI0MH0.m6tA_-TxaIqyayLYaQqFoUZyejtFA1kWXtNjGaxbqyA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2NzUzMDcsImV4cCI6MTc3MDI4MDEwN30.qsOcP63UT5AXBqu31CkOATCPqB8CluNN1ibbmGwG2Ys",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2NzcwMjUsImV4cCI6MTc3MDI4MTgyNX0.HMVHwatTPrllLyZBdU62KFUo-RmVufphVf9SRTSmxKU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2NzkyMzgsImV4cCI6MTc3MDI4NDAzOH0.iWFeOKz1YucD3hBay17liQcQTuBINoS1hPok5nS5cLY",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2ODAyNzEsImV4cCI6MTc3MDI4NTA3MX0.G8jILmmD_NdG4Lgf9feiMLd63-ghh-WEzkddz-fhPjA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2ODMzMDAsImV4cCI6MTc3MDI4ODEwMH0.NReMw89HuTf-D8UrZhEKwVKooaGYLtuLVYlVuozkphM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2ODU4NDQsImV4cCI6MTc3MDI5MDY0NH0.ltVo-Oj8DqeDLsmyhsl00CGOWkZ3H-hFejHKJJdFX7g",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2ODcwODAsImV4cCI6MTc3MDI5MTg4MH0.hSKE76bi9pPjlSZDLgqAzgp6Co3kTKcw8FSHZ1MjEmA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2ODgyMjMsImV4cCI6MTc3MDI5MzAyM30.iM3jbjN_1BiaajF8yFwa4hKBPiIo5vK0hkrngV9Slpw",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTE4MTEsImV4cCI6MTc3MDI5NjYxMX0.IeT7J9Z6jy_y7i5oLrfvPMeZy5GNSkxBBI1GlA3IW_M",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTI4MDIsImV4cCI6MTc3MDI5NzYwMn0.RLwjw6B5FTrjKyw2tKFf4J2pliULzWwHa13Onv1IHIA",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTMyMzcsImV4cCI6MTc3MDI5ODAzN30.e9QpreqkgBJG2UYEOaZg3v-xW6o7jvZyvKjHOOAOnr4",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTQyMzYsImV4cCI6MTc3MDI5OTAzNn0.AIQXWLxAesIJZ1lFp-YKnGLLrVwZjWTmmrQ2K1zsAJI",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTY4MjcsImV4cCI6MTc3MDMwMTYyN30.3LlMs_q-QcrJxMHms9-1cvAMyAgXdr2usX5ZiGABkqs"
+      ]
+    },
+    {
+      "id": "1d2043ce-1095-45ca-af6b-3aee4d134555",
+      "username": "momo",
+      "password": "$2b$10$dray37W0UGG9vn3fWHaCAuiwVXpun1L18M.l.KP.dLtV5K4PCssJC",
+      "firstName": "momo",
+      "lastName": "momo",
+      "householdSize": 3,
+      "avatar": "/avatars/mere.jpg",
       "level": 1,
-      "xp": 20,
+      "xp": 10,
       "nextLevelXp": 100,
-      "avatar": "default.png"
+      "refreshTokens": []
     }
   ],
   "categories": [
     {
-      "id": 101,
-      "userId": 1,
-      "nom": "A FAIRE",
+      "id": "6e7d847a-330b-480f-b5f1-980ecaff512d",
+      "nom": "aa",
+      "userId": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
       "tasks": [
         {
-          "id": "922276bb-0c4e-47af-b7c3-23bfee87fe82",
-          "title": "preparer",
-          "description": "ok",
-          "isDone": true
-        },
-        {
-          "id": "fc421993-5582-461a-a33c-27034843d9b2",
+          "id": "1a90e787-bd25-449d-8971-59f7dddc8795",
           "title": "aa",
           "description": "",
-          "isDone": false
+          "completed": false,
+          "createdAt": "2026-01-27T13:12:47.532Z",
+          "isDone": true
         }
       ]
     },
     {
-      "id": "c818e0d2-fb9e-4d71-898a-8b8da5ee43e1",
-      "userId": 1,
-      "nom": "URGENT",
+      "id": "33b033b6-c13a-4114-80d3-baca413e45be",
+      "nom": "aaa",
+      "userId": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
       "tasks": [
         {
-          "id": "c7a51a85-8c80-4f2a-96c3-d64a71bf85db",
-          "title": "oops",
+          "id": "dfdd9674-a113-423f-a80d-853a61b1633a",
+          "title": "gyg",
           "description": "",
+          "completed": false,
+          "createdAt": "2026-01-28T14:14:47.777Z",
           "isDone": true
         }
       ]
+    },
+    {
+      "id": "40c73e00-82b3-401c-9ff5-bb066ed5a061",
+      "nom": "coco",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "9cb32068-f62b-44d9-b51e-473905c582f7",
+          "title": "cc",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-27T13:14:41.658Z",
+          "isDone": true
+        },
+        {
+          "id": "333e4f3c-7822-4826-aae0-0a4d686e4c75",
+          "title": "ss",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-28T11:42:38.219Z",
+          "isDone": true
+        },
+        {
+          "id": "877a4b87-9d6e-4575-965a-912801e4ca23",
+          "title": "zszsz",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-28T11:42:46.527Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "3bd2aa59-b4e5-46e1-b9d7-ecff09b04e82",
+      "nom": "AA",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "d7f8b0ed-7a07-4438-87f2-ee1d07f3cb46",
+          "title": "jj",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-27T13:40:25.047Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "c15cfead-6727-453d-93cb-aeaaa980976b",
+      "nom": "jbhkjk",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "54752107-42b8-411a-bdb8-23ad5615f6d5",
+          "title": "nhbjh",
+          "description": "jn ",
+          "completed": false,
+          "createdAt": "2026-01-27T13:40:46.917Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "0fcceb56-dc60-4d7d-842f-bf9069a3d24f",
+      "nom": "aaadaz",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "25496c81-f28d-4dba-a54b-3986222865ae",
+          "title": "aa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:39:41.686Z"
+        },
+        {
+          "id": "96394fc7-5c8a-44fc-bf3c-dc17257ca49b",
+          "title": "aaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:39:45.170Z"
+        },
+        {
+          "id": "06a99524-23c9-4d7d-9fe2-bc92c8f6496e",
+          "title": "aaaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:39:49.046Z",
+          "isDone": true
+        },
+        {
+          "id": "cdeb98c2-7116-4e2c-a3dd-b60d07d366fa",
+          "title": "aaaaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:39:53.568Z",
+          "isDone": true
+        },
+        {
+          "id": "2c6e116d-8eb4-43ec-8c7f-0786dc67622c",
+          "title": "aaaaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:39:58.655Z",
+          "isDone": true
+        },
+        {
+          "id": "ac305b44-43e2-4d6b-a9b2-22dda88ec312",
+          "title": "aaaaaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:40:03.814Z",
+          "isDone": true
+        },
+        {
+          "id": "4f9e27eb-fadd-46e4-a56b-e32d3da307b3",
+          "title": "aaaaa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:40:21.739Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "7a245343-6c02-44e7-965c-23ffeec56ff9",
+      "nom": "aaa",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "01e1a45e-e3c9-48fc-8982-4379bed54427",
+          "title": "hbj",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:37:28.664Z",
+          "isDone": true
+        },
+        {
+          "id": "5e7c5add-db11-43c2-a3a4-5d4391ef01e7",
+          "title": "hjbv",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:37:41.271Z",
+          "isDone": true
+        },
+        {
+          "id": "6001e692-0e20-4728-9e48-99565e9f478e",
+          "title": "zzzzzz",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:40:36.905Z"
+        }
+      ]
+    },
+    {
+      "id": "80ecee99-a03f-499b-ae83-5a3e35ea89a7",
+      "nom": "gg",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "fb1d0a73-e277-475b-9525-57149eff72cd",
+          "title": " njj",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-29T09:37:35.333Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "80c37aee-1b22-4e2b-b9ff-1eed32b3a14b",
+      "nom": "yhbghj",
+      "userId": "1d2043ce-1095-45ca-af6b-3aee4d134555",
+      "tasks": [
+        {
+          "id": "1d4cf223-ce07-488d-a3c5-7e253209cfd2",
+          "title": "bn n, ",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-01-28T12:00:56.767Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "37bc83ce-8f86-467a-91ba-3aefcb4e3bb7",
+      "nom": "hh",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": [
+        {
+          "id": "ec714fc9-e9a3-40b5-83c2-a8d7f20168d2",
+          "title": "gghds",
+          "description": "aa",
+          "completed": false,
+          "createdAt": "2026-01-29T11:11:37.234Z",
+          "isDone": true
+        }
+      ]
+    },
+    {
+      "id": "80e33c06-24fe-4f6f-ba06-ecc1891559a3",
+      "nom": "hhhjjhj",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "46d9897c-a76f-4d74-b8f4-1b5465c01257",
+      "nom": "bbvj",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
     }
   ],
-  "charges": []
+  "charges": [
+    {
+      "id": "ade178f3-f9dc-42c0-a6e5-65ff22dee849",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "edf",
+      "categorie": "eee",
+      "montant": 0,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-03-29",
+      "isPaid": true
+    },
+    {
+      "id": "1b0a10ef-83ca-45f5-be64-6cf5968cc2c8",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 204.7,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "2b5fa33c-bb21-401e-960a-e911451962d0",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Netflix",
+      "categorie": "Streaming",
+      "montant": 206.07,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "6c2b6452-9e03-429e-872a-b537c6ff871f",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "SFR Business",
+      "categorie": "Internet",
+      "montant": 23800.28,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "f68a0706-1a87-46bb-9efe-3e4b56f2e1f4",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 2000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "ed102714-3cd0-468e-bd7f-8e00cc94a64d",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Eau de Valence",
+      "categorie": "Eau",
+      "montant": 10000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "b9d509f4-7231-458a-b939-86365e88e177",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "SFR Business",
+      "categorie": "Internet",
+      "montant": 8000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "1355dd62-dfd0-4038-9532-990041f45b28",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 8000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "3f4c3a8d-7a88-4733-9a12-b88fed33d0bf",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Eau de Valence",
+      "categorie": "Eau",
+      "montant": 5000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "e5a5823b-4ad4-49e7-b904-794bde433774",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 4000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "b90dd689-8060-4438-bdfe-76915e3e7420",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 6000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "8cbac8fb-d91c-489e-8869-48a05b70fc00",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 2000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "a3c1917e-a960-4b65-95d3-58e5d61d84d7",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Netflix",
+      "categorie": "Streaming",
+      "montant": 7000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "64445d45-5da9-450c-8621-704296737ce4",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Eau de Valence",
+      "categorie": "Eau",
+      "montant": 1000,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "1043fa39-51fd-4a51-8d71-63f6703c3dde",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 500,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "4e159fa8-5f13-4af1-a7e4-09e431b4fa5e",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 112.04,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "0bfbbdf3-06f1-4da3-89e4-36bb7b4c8fc8",
+      "userId": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 51.89,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "4d6241e2-fd37-48e0-9ceb-84ff4b18a76d",
+      "userId": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
+      "prestataire": "SFR Business",
+      "categorie": "Internet",
+      "montant": 130.01,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "768b6030-752f-4ecc-af1b-dc1bebef3d03",
+      "userId": "3a2519b8-7895-4f7d-80a8-3b9784ad4ab8",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 19.62,
+      "dateEmission": "2026-01-28",
+      "dateEcheance": "2026-01-29",
+      "isPaid": true
+    },
+    {
+      "id": "d7942b82-1719-42c0-94ba-d3c721e0286b",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "SFR Business",
+      "categorie": "Internet",
+      "montant": 255.67,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": true
+    },
+    {
+      "id": "05131ffa-4ab3-45a3-9a5e-af80d9c771ab",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Netflix",
+      "categorie": "Streaming",
+      "montant": 217.68,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "8112e161-e93a-4b6f-bd4a-5c28d7cfc4ac",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Netflix",
+      "categorie": "Streaming",
+      "montant": 24.36,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": true
+    },
+    {
+      "id": "f228b145-ae50-4f86-9804-58c38a7f2505",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Eau de Valence",
+      "categorie": "Eau",
+      "montant": 66.23,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "bbebaa05-c955-4120-87c2-7110dc02db20",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Netflix",
+      "categorie": "Streaming",
+      "montant": 246.93,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "91a76ead-44f2-499c-a679-7786be25f28d",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 192.24,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "61f9b1d4-cc29-42ee-afc8-429f41e62025",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Eau de Valence",
+      "categorie": "Eau",
+      "montant": 217.58,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "ad930f51-4fcf-486e-8635-8ffb0ca993c9",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 231.69,
+      "dateEmission": "2026-01-29",
+      "dateEcheance": "2026-01-30",
+      "isPaid": false
+    }
+  ]
 }

@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  id: number,
+  id: string,
   title: string,
   tasks: any[]
 }>()

@@ -1,22 +1,32 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
+/**
+ * Adds a new task to a specific category
+ * Verification: Checks category ownership before insertion
+ */
 export default defineEventHandler(async (event) => {
-  const body = await readBody(event) // { categoryId, title, description }
-  const dbPath = path.resolve('server/db.json')
-  const db = JSON.parse(await fs.readFile(dbPath, 'utf-8'))
+  const body = await readBody(event); // { categoryId, title, description }
+  const userId = event.context.auth.userId;
+  const dbPath = path.resolve('server/db.json');
+  const db = JSON.parse(await fs.readFile(dbPath, 'utf-8'));
 
-  const cat = db.categories.find((c: any) => c.id === body.categoryId)
-  if (!cat) throw createError({ statusCode: 404, message: 'Catégorie non trouvée' })
+  const category = db.categories.find((c: any) => c.id === body.categoryId && c.userId === userId);
+
+  if (!category) {
+    throw createError({ statusCode: 404, statusMessage: 'Category not found or access denied' });
+  }
 
   const newTask = {
     id: crypto.randomUUID(),
     title: body.title,
     description: body.description,
-    isDone: false
-  }
+    completed: false,
+    createdAt: new Date().toISOString()
+  };
 
-  cat.tasks.push(newTask)
-  await fs.writeFile(dbPath, JSON.stringify(db, null, 2))
-  return newTask
-})
+  category.tasks.push(newTask);
+  await fs.writeFile(dbPath, JSON.stringify(db, null, 2));
+
+  return { success: true, task: newTask };
+});

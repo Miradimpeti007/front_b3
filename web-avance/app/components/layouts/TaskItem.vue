@@ -42,7 +42,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  data: { id: number; title: string; description: string; isDone: boolean; }
+  data: { id: string; title: string; description: string; isDone: boolean; }
 }>()
 
 defineEmits(['toggle-status', 'delete-task'])

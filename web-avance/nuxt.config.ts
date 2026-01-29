@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   components: {
     dirs: [{ path: '~/components/layouts', pathPrefix: false }]
   },
+
+  runtimeConfig: {
+    jwtAccessSecret: process.env.JWT_ACCESS_SECRET,
+    jwtRefreshSecret: process.env.JWT_REFRESH_SECRET,
+    jwtAccessExpires: '15m',
+    jwtRefreshExpires: '7d'
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
@@ -20,7 +27,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { ssr: true }
   },
 
   compatibilityDate: '2025-01-15',
