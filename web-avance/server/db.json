@@ -106,6 +106,21 @@
       "xp": 10,
       "nextLevelXp": 100,
       "refreshTokens": []
+    },
+    {
+      "id": "a1522184-43fd-4d71-9084-fbee6bb0b3eb",
+      "username": "fofo",
+      "password": "$2b$10$G9pCCIGblv1UqoHmizWe3ebuzffo9JCKL0nsClSvXr0ysIsUXIP5q",
+      "firstName": "fofo",
+      "lastName": "fofo",
+      "householdSize": 1,
+      "avatar": "/avatars/enfant-m.jpg",
+      "level": 1,
+      "xp": 0,
+      "nextLevelXp": 100,
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTUyMjE4NC00M2ZkLTRkNzEtOTA4NC1mYmVlNmJiMGIzZWIiLCJpYXQiOjE3NzA1NzUyMjksImV4cCI6MTc3MTE4MDAyOX0.6IFJ6EQUP-TD13YjjXAxuMDpZ1HufoLylAVUvvFTYN8"
+      ]
     }
   ],
   "categories": [
