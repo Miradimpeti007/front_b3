@@ -17,7 +17,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@vee-validate/nuxt'
   ],
 
   devtools: {

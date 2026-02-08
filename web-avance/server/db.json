@@ -32,7 +32,7 @@
       "householdSize": 1,
       "avatar": "/avatars/enfant-f.jpg",
       "level": 9,
-      "xp": 288,
+      "xp": 348,
       "nextLevelXp": 1080,
       "refreshTokens": [
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
@@ -84,7 +84,12 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTI4MDIsImV4cCI6MTc3MDI5NzYwMn0.RLwjw6B5FTrjKyw2tKFf4J2pliULzWwHa13Onv1IHIA",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTMyMzcsImV4cCI6MTc3MDI5ODAzN30.e9QpreqkgBJG2UYEOaZg3v-xW6o7jvZyvKjHOOAOnr4",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTQyMzYsImV4cCI6MTc3MDI5OTAzNn0.AIQXWLxAesIJZ1lFp-YKnGLLrVwZjWTmmrQ2K1zsAJI",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTY4MjcsImV4cCI6MTc3MDMwMTYyN30.3LlMs_q-QcrJxMHms9-1cvAMyAgXdr2usX5ZiGABkqs"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk2OTY4MjcsImV4cCI6MTc3MDMwMTYyN30.3LlMs_q-QcrJxMHms9-1cvAMyAgXdr2usX5ZiGABkqs",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NjQ4MjYsImV4cCI6MTc3MTE2OTYyNn0.gWUCH6m8mQ6xLYuR67qb5GXSYvpJuejihgqHlR966pI",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NjY0MTksImV4cCI6MTc3MTE3MTIxOX0._1iea3Kq48nUcQRsLPR4l6GpI9u6cv469fPghlU46Bg",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njc2MzIsImV4cCI6MTc3MTE3MjQzMn0.6dNIxpx8fsw8d7qsqiWYJvo7ARCNTXTT74nUiEVvqQg",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njg4MzEsImV4cCI6MTc3MTE3MzYzMX0.L9rfXgfgXtv3YCBznBAIYntN2kUrOG1sty47k7K_WHs",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njk4MDksImV4cCI6MTc3MTE3NDYwOX0.ZD1nCDK7NK-8kb_ItXFhyixZHj7MsfJQ76ekRoL2rPE"
       ]
     },
     {
@@ -138,119 +143,25 @@
       "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
       "tasks": [
         {
-          "id": "9cb32068-f62b-44d9-b51e-473905c582f7",
-          "title": "cc",
-          "description": "",
+          "id": "252223fd-bbcf-471b-8d4e-85b7bdca4b1a",
+          "title": ",lk sl",
+          "description": ",,sz ",
           "completed": false,
-          "createdAt": "2026-01-27T13:14:41.658Z",
+          "createdAt": "2026-02-08T16:20:56.814Z",
           "isDone": true
         },
         {
-          "id": "333e4f3c-7822-4826-aae0-0a4d686e4c75",
-          "title": "ss",
-          "description": "",
+          "id": "64af4642-507b-4799-bf23-72f93850af94",
+          "title": "xs",
           "completed": false,
-          "createdAt": "2026-01-28T11:42:38.219Z",
-          "isDone": true
+          "createdAt": "2026-02-08T16:45:27.548Z"
         },
         {
-          "id": "877a4b87-9d6e-4575-965a-912801e4ca23",
-          "title": "zszsz",
-          "description": "",
+          "id": "ae654f30-f29d-4165-949c-f5c8a8f0f8be",
+          "title": "ww",
+          "description": "w",
           "completed": false,
-          "createdAt": "2026-01-28T11:42:46.527Z",
-          "isDone": true
-        }
-      ]
-    },
-    {
-      "id": "3bd2aa59-b4e5-46e1-b9d7-ecff09b04e82",
-      "nom": "AA",
-      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
-      "tasks": [
-        {
-          "id": "d7f8b0ed-7a07-4438-87f2-ee1d07f3cb46",
-          "title": "jj",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-27T13:40:25.047Z",
-          "isDone": true
-        }
-      ]
-    },
-    {
-      "id": "c15cfead-6727-453d-93cb-aeaaa980976b",
-      "nom": "jbhkjk",
-      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
-      "tasks": [
-        {
-          "id": "54752107-42b8-411a-bdb8-23ad5615f6d5",
-          "title": "nhbjh",
-          "description": "jn ",
-          "completed": false,
-          "createdAt": "2026-01-27T13:40:46.917Z",
-          "isDone": true
-        }
-      ]
-    },
-    {
-      "id": "0fcceb56-dc60-4d7d-842f-bf9069a3d24f",
-      "nom": "aaadaz",
-      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
-      "tasks": [
-        {
-          "id": "25496c81-f28d-4dba-a54b-3986222865ae",
-          "title": "aa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:39:41.686Z"
-        },
-        {
-          "id": "96394fc7-5c8a-44fc-bf3c-dc17257ca49b",
-          "title": "aaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:39:45.170Z"
-        },
-        {
-          "id": "06a99524-23c9-4d7d-9fe2-bc92c8f6496e",
-          "title": "aaaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:39:49.046Z",
-          "isDone": true
-        },
-        {
-          "id": "cdeb98c2-7116-4e2c-a3dd-b60d07d366fa",
-          "title": "aaaaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:39:53.568Z",
-          "isDone": true
-        },
-        {
-          "id": "2c6e116d-8eb4-43ec-8c7f-0786dc67622c",
-          "title": "aaaaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:39:58.655Z",
-          "isDone": true
-        },
-        {
-          "id": "ac305b44-43e2-4d6b-a9b2-22dda88ec312",
-          "title": "aaaaaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:40:03.814Z",
-          "isDone": true
-        },
-        {
-          "id": "4f9e27eb-fadd-46e4-a56b-e32d3da307b3",
-          "title": "aaaaa",
-          "description": "",
-          "completed": false,
-          "createdAt": "2026-01-29T09:40:21.739Z",
-          "isDone": true
+          "createdAt": "2026-02-08T16:51:29.527Z"
         }
       ]
     },
@@ -280,7 +191,8 @@
           "title": "zzzzzz",
           "description": "",
           "completed": false,
-          "createdAt": "2026-01-29T09:40:36.905Z"
+          "createdAt": "2026-01-29T09:40:36.905Z",
+          "isDone": true
         }
       ]
     },
@@ -338,6 +250,36 @@
     {
       "id": "46d9897c-a76f-4d74-b8f4-1b5465c01257",
       "nom": "bbvj",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "3c0bbe1f-4894-4aac-b007-7d6953c77aed",
+      "nom": "ejkzfnez",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "93dc7b4a-ac7d-4f5a-913b-23c372fb24e5",
+      "nom": "aaaa",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "589befee-9ac6-4d02-810f-8cc143752d44",
+      "nom": "qs",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "90e62ac5-2b02-48bc-942a-4942828ed634",
+      "nom": "qq",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "feea66e1-4085-45a1-b9f7-535815a6ba54",
+      "nom": "sss,",
       "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
       "tasks": []
     }

@@ -172,9 +172,7 @@ const stats = computed(() => {
 
 const formaterDate = (d: string) => d.split('-').reverse().join('/')
 
-onMounted(async () => {
-  await Promise.all([taskStore.refresh(), invoiceStore.refresh()])
-})
+
 
 const invoices = inject("invoices")
 </script>
