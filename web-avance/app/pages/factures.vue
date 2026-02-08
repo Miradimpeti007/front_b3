@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
  * @file pages/invoices.vue
- * @description Rendu avec pré-remplissage EDF et filtres synchronisés.
+ * @description Interface Factures avec support complet du filtrage "En attente".
  */
 definePageMeta({ title: 'FACTURES', middleware: 'auth' });
 
@@ -21,7 +21,7 @@ const orderedInvoices = computed(() => {
 const openAdd = () => {
   isEditing.value = false;
   const dateObj = new Date();
-  dateObj.setDate(dateObj.getDate() + 2); // J+2 pour l'échéance par défaut
+  dateObj.setDate(dateObj.getDate() + 2); // J+2 par défaut
   
   currentInv.value = {
     prestataire: 'EDF',
@@ -79,6 +79,7 @@ await useFetch<any[]>('/api/invoices/list', {
           <option value="PAYÉE">Payées</option>
           <option value="EN RETARD">Retard</option>
           <option value="VIGILANCE">Vigilance</option>
+          <option value="EN ATTENTE">En attente</option>
         </select>
       </div>
     </template>

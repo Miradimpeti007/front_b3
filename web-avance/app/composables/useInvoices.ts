@@ -1,6 +1,6 @@
 /**
  * @file composables/useInvoices.ts
- * @description Intégration de la logique Vigilance dans le pipeline de filtrage.
+ * @description Pipeline de données incluant les 4 états : Payé, Retard, Vigilance, Attente.
  */
 export const useInvoices = () => {
   const store = useInvoiceStore();
@@ -12,27 +12,30 @@ export const useInvoices = () => {
   const sortedInvoices = computed(() => {
     let list = [...store.invoices];
 
-    // FILTRAGE : Ajout de la logique Vigilance (J-1)
+    // FILTRAGE LOGIQUE DES ÉTATS
     if (statusFilter.value !== 'TOUS') {
       list = list.filter(inv => {
         const now = Date.now();
         const due = new Date(inv.dateEcheance).getTime();
         const diff = due - now;
 
-        let status = 'EN ATTENTE';
+        let currentStatus = '';
+
         if (inv.isPaid) {
-          status = 'PAYÉE';
+          currentStatus = 'PAYÉE';
         } else if (diff < 0) {
-          status = 'EN RETARD';
-        } else if (diff <= 86400000) { // 24 heures en millisecondes
-          status = 'VIGILANCE';
+          currentStatus = 'EN RETARD';
+        } else if (diff <= 86400000) { // Moins de 24h avant l'échéance
+          currentStatus = 'VIGILANCE';
+        } else {
+          currentStatus = 'EN ATTENTE'; // Plus de 24h avant l'échéance
         }
 
-        return status === statusFilter.value;
+        return currentStatus === statusFilter.value;
       });
     }
 
-    // TRI : Utilisation de la clé sélectionnée
+    // TRI PAR CLÉ
     return list.sort((a, b) => {
       const key = sortKey.value;
       if (key === 'montant') return b.montant - a.montant;
@@ -40,19 +43,17 @@ export const useInvoices = () => {
     });
   });
 
-  // Méthodes API (inchangées)
   const fetchAll = async () => { store.invoices = await $fetch('/api/invoices/list') || []; };
   const add = async (body: any) => { await $fetch('/api/invoices/add', { method: 'POST', body }); await fetchAll(); };
   const update = async (body: any) => { await $fetch('/api/invoices/update', { method: 'PATCH', body }); await fetchAll(); };
   const remove = async (id: string) => { await $fetch('/api/invoices/delete', { method: 'DELETE', body: { id } }); await fetchAll(); };
   const pay = async (id: string) => {
     const res = await $fetch<any>('/api/invoices/pay', { method: 'PATCH', body: { id } });
-    if (res.success && auth.user) {
+    if (res?.success && auth.user) {
       auth.user.level = res.progression.level;
       auth.user.xp = res.progression.xp;
       auth.user.nextLevelXp = res.progression.nextLevelXp;
       await fetchAll();
-      return res.progression;
     }
   };
 
