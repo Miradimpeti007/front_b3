@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
  * @file components/templates/TaskLayout.vue
- * @description Structure structurelle pour l'agencement et les modales.
+ * @description Structure structurelle pour l'agencement de la page et des modales.
  */
 defineProps<{
   isCatModalOpen: boolean;
@@ -12,7 +12,7 @@ defineEmits(['close-cat', 'close-task']);
 </script>
 
 <template>
-  <div class="min-h-screen p-10 flex flex-col gap-14">
+  <div class="min-h-screen bg-stone-950 p-10 flex flex-col gap-14">
     <header>
       <slot name="header-action" />
     </header>

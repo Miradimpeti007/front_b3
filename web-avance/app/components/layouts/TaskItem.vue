@@ -1,15 +1,9 @@
 <script setup lang="ts">
 /**
  * @file components/molecules/TaskItem.vue
- * @description Molécule de tâche avec design original : case bleue et corbeille.
+ * @description Représentation visuelle d'une tâche.
  */
-
-defineProps<{ 
-  id: string, 
-  title: string, 
-  isDone: boolean 
-}>();
-
+defineProps<{ id: string; title: string; isDone: boolean; }>();
 defineEmits(['toggle', 'delete']);
 </script>
 
@@ -20,12 +14,10 @@ defineEmits(['toggle', 'delete']);
            :class="isDone ? 'bg-blue-600 border-blue-600 shadow-lg shadow-blue-600/30' : 'border-stone-700 bg-stone-900'">
         <UIcon v-if="isDone" name="i-heroicons-check-bold" class="text-white w-3 h-3" />
       </div>
-      
       <span class="text-sm font-black uppercase tracking-tight text-white" :class="{'line-through opacity-30 text-stone-500': isDone}">
         {{ title }}
       </span>
     </div>
-
     <button @click="$emit('delete', id)" class="opacity-0 group-hover:opacity-100 text-stone-600 hover:text-red-500 transition-all px-2">
       <UIcon name="i-heroicons-trash" class="w-4 h-4" />
     </button>

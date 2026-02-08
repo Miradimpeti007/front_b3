@@ -32,7 +32,7 @@
       "householdSize": 1,
       "avatar": "/avatars/enfant-f.jpg",
       "level": 9,
-      "xp": 348,
+      "xp": 388,
       "nextLevelXp": 1080,
       "refreshTokens": [
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
@@ -89,7 +89,9 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NjY0MTksImV4cCI6MTc3MTE3MTIxOX0._1iea3Kq48nUcQRsLPR4l6GpI9u6cv469fPghlU46Bg",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njc2MzIsImV4cCI6MTc3MTE3MjQzMn0.6dNIxpx8fsw8d7qsqiWYJvo7ARCNTXTT74nUiEVvqQg",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njg4MzEsImV4cCI6MTc3MTE3MzYzMX0.L9rfXgfgXtv3YCBznBAIYntN2kUrOG1sty47k7K_WHs",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njk4MDksImV4cCI6MTc3MTE3NDYwOX0.ZD1nCDK7NK-8kb_ItXFhyixZHj7MsfJQ76ekRoL2rPE"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njk4MDksImV4cCI6MTc3MTE3NDYwOX0.ZD1nCDK7NK-8kb_ItXFhyixZHj7MsfJQ76ekRoL2rPE",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzA5MjcsImV4cCI6MTc3MTE3NTcyN30.9Gk9G_d9OiLtvlVAftt_HlKgv1uB8k9XfViIdD8KNdY",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzIxNzksImV4cCI6MTc3MTE3Njk3OX0.ceHKN36KUxgeUVMIyqIg_VNKBfh6EwMiirxHAukySfs"
       ]
     },
     {
@@ -143,25 +145,27 @@
       "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
       "tasks": [
         {
-          "id": "252223fd-bbcf-471b-8d4e-85b7bdca4b1a",
-          "title": ",lk sl",
-          "description": ",,sz ",
-          "completed": false,
-          "createdAt": "2026-02-08T16:20:56.814Z",
-          "isDone": true
-        },
-        {
-          "id": "64af4642-507b-4799-bf23-72f93850af94",
-          "title": "xs",
-          "completed": false,
-          "createdAt": "2026-02-08T16:45:27.548Z"
-        },
-        {
           "id": "ae654f30-f29d-4165-949c-f5c8a8f0f8be",
           "title": "ww",
           "description": "w",
           "completed": false,
-          "createdAt": "2026-02-08T16:51:29.527Z"
+          "createdAt": "2026-02-08T16:51:29.527Z",
+          "isDone": true
+        },
+        {
+          "id": "02571d89-f801-412c-9576-c506eee61770",
+          "title": "ww",
+          "completed": false,
+          "createdAt": "2026-02-08T17:17:34.441Z",
+          "isDone": true
+        },
+        {
+          "id": "dbb3222c-20cd-4476-bd30-5a3683c27734",
+          "title": "xx",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-02-08T17:37:07.351Z",
+          "isDone": true
         }
       ]
     },
@@ -280,6 +284,12 @@
     {
       "id": "feea66e1-4085-45a1-b9f7-535815a6ba54",
       "nom": "sss,",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "tasks": []
+    },
+    {
+      "id": "65c8e6e9-4cc1-4cd8-9247-d5d72da8cd06",
+      "nom": ",,,",
       "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
       "tasks": []
     }
