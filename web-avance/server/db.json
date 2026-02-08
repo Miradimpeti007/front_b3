@@ -32,7 +32,7 @@
       "householdSize": 1,
       "avatar": "/avatars/enfant-f.jpg",
       "level": 9,
-      "xp": 388,
+      "xp": 520,
       "nextLevelXp": 1080,
       "refreshTokens": [
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
@@ -91,7 +91,12 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njg4MzEsImV4cCI6MTc3MTE3MzYzMX0.L9rfXgfgXtv3YCBznBAIYntN2kUrOG1sty47k7K_WHs",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Njk4MDksImV4cCI6MTc3MTE3NDYwOX0.ZD1nCDK7NK-8kb_ItXFhyixZHj7MsfJQ76ekRoL2rPE",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzA5MjcsImV4cCI6MTc3MTE3NTcyN30.9Gk9G_d9OiLtvlVAftt_HlKgv1uB8k9XfViIdD8KNdY",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzIxNzksImV4cCI6MTc3MTE3Njk3OX0.ceHKN36KUxgeUVMIyqIg_VNKBfh6EwMiirxHAukySfs"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzIxNzksImV4cCI6MTc3MTE3Njk3OX0.ceHKN36KUxgeUVMIyqIg_VNKBfh6EwMiirxHAukySfs",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzY0MzUsImV4cCI6MTc3MTE4MTIzNX0.21Z00dD3yfclD7xrE2YY_i6fl-gAcNaKymAPXdGMvHU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzY0NjUsImV4cCI6MTc3MTE4MTI2NX0.xeFi5_RZDvYFaK4zjsuHedT9sseiH-fxymXQIGhDitw",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Nzc2MjIsImV4cCI6MTc3MTE4MjQyMn0._OTG9j4l1v8hYUCY3X4m57YOzo-MBQxZTE9rpUNgC0w",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODAyMDcsImV4cCI6MTc3MTE4NTAwN30.GjabuBvkC_7eyQnmqe4piQDyX6xnae5XieOEp5x0HfU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODExMTksImV4cCI6MTc3MTE4NTkxOX0.uHteepjSvy5xmIikjYiMe1ErF2IB1_mfEw1TMqxNZxI"
       ]
     },
     {
@@ -548,7 +553,7 @@
       "montant": 246.93,
       "dateEmission": "2026-01-29",
       "dateEcheance": "2026-01-30",
-      "isPaid": false
+      "isPaid": true
     },
     {
       "id": "91a76ead-44f2-499c-a679-7786be25f28d",
@@ -578,6 +583,26 @@
       "montant": 231.69,
       "dateEmission": "2026-01-29",
       "dateEcheance": "2026-01-30",
+      "isPaid": false
+    },
+    {
+      "id": "83d9e34a-3896-4837-9080-17c3dc6de75f",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "Loyer",
+      "categorie": "Logement",
+      "montant": 85.16,
+      "dateEmission": "2026-02-08",
+      "dateEcheance": "2026-02-09",
+      "isPaid": true
+    },
+    {
+      "id": "422db14e-57ad-40ef-812e-19f9fb75792f",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "edf",
+      "categorie": "facture",
+      "montant": 100,
+      "dateEmission": "2026-02-08",
+      "dateEcheance": "2026-02-09",
       "isPaid": false
     }
   ]
