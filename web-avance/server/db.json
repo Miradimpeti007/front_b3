@@ -31,9 +31,9 @@
       "lastName": "coc",
       "householdSize": 1,
       "avatar": "/avatars/enfant-f.jpg",
-      "level": 9,
-      "xp": 520,
-      "nextLevelXp": 1080,
+      "level": 10,
+      "xp": 0,
+      "nextLevelXp": 1200,
       "refreshTokens": [
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk3MDUsImV4cCI6MTc3MDEyNDUwNX0.-bcKornEeNmABep8qPnITXT-lHop9nevL08mEgrW5Nc",
@@ -96,7 +96,8 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1NzY0NjUsImV4cCI6MTc3MTE4MTI2NX0.xeFi5_RZDvYFaK4zjsuHedT9sseiH-fxymXQIGhDitw",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1Nzc2MjIsImV4cCI6MTc3MTE4MjQyMn0._OTG9j4l1v8hYUCY3X4m57YOzo-MBQxZTE9rpUNgC0w",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODAyMDcsImV4cCI6MTc3MTE4NTAwN30.GjabuBvkC_7eyQnmqe4piQDyX6xnae5XieOEp5x0HfU",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODExMTksImV4cCI6MTc3MTE4NTkxOX0.uHteepjSvy5xmIikjYiMe1ErF2IB1_mfEw1TMqxNZxI"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODExMTksImV4cCI6MTc3MTE4NTkxOX0.uHteepjSvy5xmIikjYiMe1ErF2IB1_mfEw1TMqxNZxI",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODIwNTIsImV4cCI6MTc3MTE4Njg1Mn0.jWH2H7ZFYxmguIdlUbdWVqDSBkifXSFwLAJgjxq_I0Q"
       ]
     },
     {
@@ -543,7 +544,7 @@
       "montant": 66.23,
       "dateEmission": "2026-01-29",
       "dateEcheance": "2026-01-30",
-      "isPaid": false
+      "isPaid": true
     },
     {
       "id": "bbebaa05-c955-4120-87c2-7110dc02db20",
@@ -563,7 +564,7 @@
       "montant": 192.24,
       "dateEmission": "2026-01-29",
       "dateEcheance": "2026-01-30",
-      "isPaid": false
+      "isPaid": true
     },
     {
       "id": "61f9b1d4-cc29-42ee-afc8-429f41e62025",
@@ -583,7 +584,7 @@
       "montant": 231.69,
       "dateEmission": "2026-01-29",
       "dateEcheance": "2026-01-30",
-      "isPaid": false
+      "isPaid": true
     },
     {
       "id": "83d9e34a-3896-4837-9080-17c3dc6de75f",
@@ -604,6 +605,36 @@
       "dateEmission": "2026-02-08",
       "dateEcheance": "2026-02-09",
       "isPaid": false
+    },
+    {
+      "id": "7cc3d5e4-2f2e-41d5-a641-1fad942b09e4",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 100,
+      "dateEmission": "2026-02-08",
+      "dateEcheance": "2026-02-10",
+      "isPaid": false
+    },
+    {
+      "id": "fa170609-df31-4d94-8cd7-3d827f753485",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 100,
+      "dateEmission": "2026-02-08",
+      "dateEcheance": "2026-02-10",
+      "isPaid": false
+    },
+    {
+      "id": "603a9607-79c0-4cb4-b2f3-cf418cf2af05",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 100000,
+      "dateEmission": "2026-02-08",
+      "dateEcheance": "2026-02-10",
+      "isPaid": true
     }
   ]
 }
