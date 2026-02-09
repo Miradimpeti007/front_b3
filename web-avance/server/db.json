@@ -101,7 +101,8 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODI5ODMsImV4cCI6MTc3MTE4Nzc4M30.p3U6tEH3ucwmC946AADlAaxTlTNrv-mkCT5rL1AviLE",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODM5MDksImV4cCI6MTc3MTE4ODcwOX0.WlbMuOZzNBXe8js5sbR6OrzKA0AxDn-4AcwEeNQfAbE",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODU0MjQsImV4cCI6MTc3MTE5MDIyNH0.2oscqK81hff_PStq6ysxjNJGOgF4CJ1Pt6Kc0K76lt4",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODYzMzQsImV4cCI6MTc3MTE5MTEzNH0.Kp_hXnuU5TkN2WXhSCnJ9WUzC0_veBEFoIGVCp4Se00"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODYzMzQsImV4cCI6MTc3MTE5MTEzNH0.Kp_hXnuU5TkN2WXhSCnJ9WUzC0_veBEFoIGVCp4Se00",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA2NjU0MjgsImV4cCI6MTc3MTI3MDIyOH0.KN0xdFEaIRS1nq8UPwuXqyb8xAs8vV9TzKtEAFw8yFQ"
       ]
     },
     {
@@ -116,21 +117,6 @@
       "xp": 10,
       "nextLevelXp": 100,
       "refreshTokens": []
-    },
-    {
-      "id": "a1522184-43fd-4d71-9084-fbee6bb0b3eb",
-      "username": "fofo",
-      "password": "$2b$10$G9pCCIGblv1UqoHmizWe3ebuzffo9JCKL0nsClSvXr0ysIsUXIP5q",
-      "firstName": "fofo",
-      "lastName": "fofo",
-      "householdSize": 1,
-      "avatar": "/avatars/enfant-m.jpg",
-      "level": 1,
-      "xp": 0,
-      "nextLevelXp": 100,
-      "refreshTokens": [
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTUyMjE4NC00M2ZkLTRkNzEtOTA4NC1mYmVlNmJiMGIzZWIiLCJpYXQiOjE3NzA1NzUyMjksImV4cCI6MTc3MTE4MDAyOX0.6IFJ6EQUP-TD13YjjXAxuMDpZ1HufoLylAVUvvFTYN8"
-      ]
     }
   ],
   "categories": [

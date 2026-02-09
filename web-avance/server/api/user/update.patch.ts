@@ -1,38 +1,55 @@
-import { readBody, createError, defineEventHandler, getCookie } from 'h3'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
 export default defineEventHandler(async (event) => {
-  const body = await readBody(event)
-  const userId = event.context.auth?.id
+  try {
+    const body = await readBody(event)
+    const userId = event.context.auth?.userId // Utilise bien .userId suite au correctif du middleware
 
-  if (!userId) {
-    throw createError({ statusCode: 401, message: 'Session invalide ou expirée' })
-  }
+    if (!userId) {
+      throw createError({ statusCode: 401, statusMessage: 'Session invalide' })
+    }
 
-  const dbPath = path.resolve(process.cwd(), 'db.json')
-  const dbData = JSON.parse(await fs.readFile(dbPath, 'utf-8'))
-  const userIndex = dbData.users.findIndex((u: any) => u.id === userId)
+    // CORRECTION DU CHEMIN : db.json est dans le dossier 'server'
+    const dbPath = path.resolve(process.cwd(), 'server', 'db.json')
+    
+    const rawData = await fs.readFile(dbPath, 'utf-8')
+    const dbData = JSON.parse(rawData)
 
-  if (userIndex === -1) {
-    throw createError({ statusCode: 404, message: 'Utilisateur introuvable' })
-  }
+    // Trouver l'utilisateur par son ID (UUID)
+    const userIndex = dbData.users.findIndex((u: any) => u.id === userId)
 
-  // Mise à jour sélective : on ne touche pas au mot de passe ni à l'XP
-  const updatedUser = {
-    ...dbData.users[userIndex],
-    username: body.username || dbData.users[userIndex].username,
-    firstName: body.firstName || dbData.users[userIndex].firstName,
-    lastName: body.lastName || dbData.users[userIndex].lastName,
-    avatar: body.avatar || dbData.users[userIndex].avatar,
-    householdCount: body.householdCount || dbData.users[userIndex].householdCount
-  }
+    if (userIndex === -1) {
+      throw createError({ statusCode: 404, statusMessage: 'Utilisateur non trouvé dans la DB' })
+    }
 
-  dbData.users[userIndex] = updatedUser
-  await fs.writeFile(dbPath, JSON.stringify(dbData, null, 2))
+    // Mise à jour sélective avec les noms exacts de votre db.json
+    const updatedUser = {
+      ...dbData.users[userIndex],
+      username: body.username ?? dbData.users[userIndex].username,
+      firstName: body.firstName ?? dbData.users[userIndex].firstName,
+      lastName: body.lastName ?? dbData.users[userIndex].lastName,
+      avatar: body.avatar ?? dbData.users[userIndex].avatar,
+      // On utilise householdSize comme dans votre JSON
+      householdSize: body.householdSize ?? dbData.users[userIndex].householdSize 
+    }
 
-  return { 
-    success: true, 
-    user: updatedUser 
+    // Sauvegarde
+    dbData.users[userIndex] = updatedUser
+    await fs.writeFile(dbPath, JSON.stringify(dbData, null, 2))
+
+    return { 
+      success: true, 
+      user: updatedUser 
+    }
+
+  } catch (error: any) {
+    // Ce log apparaîtra dans votre terminal de commande (VS Code)
+    console.error('[Erreur Serveur]:', error.message)
+    
+    throw createError({
+      statusCode: error.statusCode || 500,
+      statusMessage: error.statusMessage || 'Erreur lors de la mise à jour'
+    })
   }
 })
