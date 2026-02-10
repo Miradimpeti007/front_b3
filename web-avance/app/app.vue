@@ -1,7 +1,13 @@
 
 <script setup lang="ts">
-  
-  
+const authStore = useAuthStore();
+
+// Si l'utilisateur devient null (à cause d'une 401), on dégage immédiatement au login
+watch(() => authStore.user, (newUser) => {
+  if (!newUser) {
+    navigateTo('/login');
+  }
+});
 </script>
 
 <template>
