@@ -1,0 +1,1 @@
+export { default } from "file:///D:/Programation/ynov/Repos/front_b3/web-avance/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
