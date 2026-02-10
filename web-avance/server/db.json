@@ -32,7 +32,7 @@
       "householdSize": 2,
       "avatar": "/avatars/enfant-f.jpg",
       "level": 11,
-      "xp": 51,
+      "xp": 122,
       "nextLevelXp": 1320,
       "refreshTokens": [
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3Njk1MTk2NjcsImV4cCI6MTc3MDEyNDQ2N30.6_n2kJtRzLNiXrzyxRNJAaWlXN_z3SIaDogJUe7HFeU",
@@ -103,7 +103,9 @@
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODU0MjQsImV4cCI6MTc3MTE5MDIyNH0.2oscqK81hff_PStq6ysxjNJGOgF4CJ1Pt6Kc0K76lt4",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA1ODYzMzQsImV4cCI6MTc3MTE5MTEzNH0.Kp_hXnuU5TkN2WXhSCnJ9WUzC0_veBEFoIGVCp4Se00",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA2NjU0MjgsImV4cCI6MTc3MTI3MDIyOH0.KN0xdFEaIRS1nq8UPwuXqyb8xAs8vV9TzKtEAFw8yFQ",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA3NDgyNzEsImV4cCI6MTc3MTM1MzA3MX0.B1vJ_r2c3LvSLTW_rOX3k4k7GXi6azlYVarKFO7zPRQ"
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA3NDgyNzEsImV4cCI6MTc3MTM1MzA3MX0.B1vJ_r2c3LvSLTW_rOX3k4k7GXi6azlYVarKFO7zPRQ",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA3NDkyMjgsImV4cCI6MTc3MTM1NDAyOH0.Pw44Idjma4vzjrdfq0CMJFxAomMBZiEwFQSC1QzvXVM",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOWM1Y2M0ZC0wMmJlLTRiZmMtODNiMi0wMjQ5YTExNTAxMmYiLCJpYXQiOjE3NzA3NTAzMzcsImV4cCI6MTc3MTM1NTEzN30.sbC-d6xJwFzQi2vciM18JXHfGNd10HJWVLkGQ9Zdf9I"
       ]
     },
     {
@@ -192,7 +194,8 @@
           "title": "xccx",
           "description": "",
           "completed": false,
-          "createdAt": "2026-02-08T20:47:34.875Z"
+          "createdAt": "2026-02-08T20:47:34.875Z",
+          "isDone": true
         }
       ]
     },
@@ -224,6 +227,35 @@
           "completed": false,
           "createdAt": "2026-01-29T09:40:36.905Z",
           "isDone": true
+        },
+        {
+          "id": "95c94d54-a0bf-437d-a939-8860dd0ce1e1",
+          "title": "ww",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-02-10T18:48:04.620Z",
+          "isDone": true
+        },
+        {
+          "id": "fd272b7b-0c10-4236-816c-c532684fad38",
+          "title": "ww",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-02-10T18:48:10.504Z"
+        },
+        {
+          "id": "0ced2b68-1c30-4044-82ef-60a51ea917af",
+          "title": "aa",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-02-10T18:57:06.231Z"
+        },
+        {
+          "id": "ab95bba9-5b4c-443a-9e69-6b867aa591a6",
+          "title": "jj",
+          "description": "",
+          "completed": false,
+          "createdAt": "2026-02-10T19:06:04.400Z"
         }
       ]
     },
@@ -633,16 +665,6 @@
       "isPaid": true
     },
     {
-      "id": "603a9607-79c0-4cb4-b2f3-cf418cf2af05",
-      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
-      "prestataire": "EDF",
-      "categorie": "Énergie",
-      "montant": 100000,
-      "dateEmission": "2026-02-08",
-      "dateEcheance": "2026-02-10",
-      "isPaid": true
-    },
-    {
       "id": "adbc43a7-0303-44fb-ba2a-bdcc3d1af876",
       "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
       "prestataire": "EDF",
@@ -660,16 +682,6 @@
       "montant": 10,
       "dateEmission": "2026-02-08",
       "dateEcheance": "2026-02-10",
-      "isPaid": true
-    },
-    {
-      "id": "9116eebf-c7c3-46b5-b760-7b4bf3f5643a",
-      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
-      "prestataire": "EDF",
-      "categorie": "Énergie",
-      "montant": 100000000,
-      "dateEmission": "2026-02-10",
-      "dateEcheance": "2026-02-12",
       "isPaid": true
     },
     {
@@ -691,6 +703,16 @@
       "dateEmission": "2026-02-10",
       "dateEcheance": "2026-02-10",
       "isPaid": false
+    },
+    {
+      "id": "a82085cf-06a8-412a-8502-5b020d044f9c",
+      "userId": "29c5cc4d-02be-4bfc-83b2-0249a115012f",
+      "prestataire": "EDF",
+      "categorie": "Énergie",
+      "montant": 10,
+      "dateEmission": "2026-02-09",
+      "dateEcheance": "2026-02-09",
+      "isPaid": true
     }
   ]
 }
