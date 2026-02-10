@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
  * @file pages/profile.vue
- * @description Page profil orchestrant les modales et la synchronisation serveur.
+ * @description Page profil synchronisée avec le matricule serveur.
  */
 definePageMeta({ middleware: 'auth' });
 
@@ -12,13 +12,20 @@ const isEditModalOpen = ref(false);
 const isDeleteModalOpen = ref(false);
 
 /**
- * SYNCHRONISATION : MISE À JOUR (PUT)
- * Connecté à ton handler exporté
+ * RÉCUPÉRATION INITIALE : On interroge ton endpoint session
+ * Cela garantit que householdSize est bien récupéré depuis db.json au chargement.
  */
+const { data: sessionData } = await useAsyncData('user-me', () => $fetch<any>('/api/auth/me'));
+
+// On met à jour le store avec les données fraîches du serveur
+if (sessionData.value?.user) {
+  authStore.user = sessionData.value.user;
+}
+
 const handleUpdate = async (formData: any) => {
   try {
     const res = await $fetch<any>('/api/user/update', { 
-      method: 'PATCH', // Ton handler utilise readBody
+      method: 'PATCH', 
       body: formData 
     });
     if (res.success) {
@@ -26,14 +33,10 @@ const handleUpdate = async (formData: any) => {
       isEditModalOpen.value = false;
     }
   } catch (e) {
-    alert("Erreur de synchronisation avec la base de données.");
+    alert("Erreur de synchronisation.");
   }
 };
 
-/**
- * SYNCHRONISATION : SUPPRESSION (DELETE)
- * Connecté à ton handler exporté
- */
 const handleDelete = async () => {
   try {
     const res = await $fetch<any>('/api/user/delete', { method: 'DELETE' });
@@ -62,7 +65,12 @@ const handleDelete = async () => {
         <h1 class="text-6xl font-black text-white uppercase italic tracking-tighter leading-none">
           {{ authStore.user?.username }}
         </h1>
-        <div class="flex gap-3 justify-center">
+        
+        <p class="text-stone-500 text-[10px] font-black uppercase tracking-[0.3em] italic">
+          Nombre de personnes dans le foyer : {{ authStore.user?.householdSize || 0 }}
+        </p>
+
+        <div class="flex gap-3 justify-center pt-2">
           <button @click="isEditModalOpen = true" class="px-8 py-3 bg-stone-900 border border-amber-500/20 text-amber-500 font-black text-[10px] uppercase tracking-widest rounded-full hover:bg-amber-500 hover:text-black transition-all shadow-xl">
             Modifier
           </button>
@@ -83,14 +91,14 @@ const handleDelete = async () => {
     <Teleport to="body">
       <div v-if="isEditModalOpen" class="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div @click="isEditModalOpen = false" class="absolute inset-0 bg-black/90 backdrop-blur-xl"></div>
-        <div class="relative bg-stone-900 border border-white/5 w-full max-w-xl rounded-[3rem] p-10 shadow-2xl overflow-hidden">
+        <div class="relative bg-stone-900 border border-white/5 w-full max-w-xl rounded-[3rem] p-10 shadow-2xl">
           <ProfileForm 
             :initial-values="{
               username: authStore.user.username,
               firstName: authStore.user.firstName,
               lastName: authStore.user.lastName,
               avatar: authStore.user.avatar,
-              householdCount: authStore.user.householdCount
+              householdSize: authStore.user.householdSize
             }"
             @submit="handleUpdate"
             @cancel="isEditModalOpen = false"
@@ -105,14 +113,13 @@ const handleDelete = async () => {
         <div class="relative bg-stone-950 border border-red-500/20 w-full max-w-md rounded-[2.5rem] p-12 text-center shadow-2xl">
           <UIcon name="i-heroicons-exclamation-triangle" class="w-12 h-12 text-red-500 mb-6 mx-auto animate-pulse" />
           <h2 class="text-red-500 font-black uppercase text-xl italic mb-4">Alerte Critique</h2>
-          <p class="text-stone-600 text-[9px] font-bold uppercase tracking-widest mb-10 leading-relaxed italic">Cette action est irréversible. Toutes les archives de données seront perdues.</p>
+          <p class="text-stone-600 text-[9px] font-bold uppercase tracking-widest mb-10 leading-relaxed italic">Cette action est irréversible.</p>
           <div class="flex flex-col gap-3">
-            <button @click="handleDelete" class="w-full bg-red-600 text-white font-black py-4 rounded-2xl uppercase text-[10px] tracking-widest hover:bg-red-500">Confirmer Destruction</button>
-            <button @click="isDeleteModalOpen = false" class="w-full bg-stone-800 text-stone-500 font-black py-4 rounded-2xl uppercase text-[10px] tracking-widest hover:text-white">Abandonner</button>
+            <button @click="handleDelete" class="w-full bg-red-600 text-white font-black py-4 rounded-2xl uppercase text-[10px] tracking-widest hover:bg-red-500">Confirmer</button>
+            <button @click="isDeleteModalOpen = false" class="w-full bg-stone-800 text-stone-500 font-black py-4 rounded-2xl uppercase text-[10px] tracking-widest hover:text-white">Annuler</button>
           </div>
         </div>
       </div>
     </Teleport>
-
   </div>
 </template>
